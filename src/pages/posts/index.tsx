@@ -70,7 +70,7 @@ export default function Posts({ posts: blogPosts, page, totalPages }: PostsProps
     return (
         <>
             <Head>
-                <title>Conteúdos</title>
+                <title>Explorer</title>
             </Head>
             <main className={styles.container}>
                 <div className={styles.posts}>

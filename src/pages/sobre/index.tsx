@@ -25,7 +25,7 @@ export default function Sobre({ content }: ContentProps) {
     return (
         <>
             <Head>
-                <title>Sobre nós</title>
+                <title>About us</title>
             </Head>
             <main className={styles.container}>
                 <div className={styles.containerHeader}>

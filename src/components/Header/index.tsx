@@ -1,6 +1,6 @@
 import styles from './styles.module.scss';
 import Image from 'next/image';
-import logo from '../../../public/images/logo.svg';
+import logo from '../../../public/favicon.png';
 import Link from 'next/link';
 import { useRouter } from 'next/router';
 
@@ -27,21 +27,21 @@ export default function Header() {
                     <Link href='/posts'>
                         <a className={asPath === '/posts' ? styles.active : ''}>
                             <FiCompass size={20}/>
-                            <span>Conteúdos</span>
+                            <span>Explorer</span>
                         </a>
                     </Link>
 
                     <Link href='/sobre'>
                         <a className={asPath === '/sobre' ? styles.active : ''}>
                             <FiHeart size={20}/>
-                            <span>Quem somos?</span>
+                            <span>About</span>
                         </a>
                     </Link>
                 </nav>
 
-                <a className={styles.readyButton} type='button' href="https://sujeitoprogramador.com">
+                <a className={styles.readyButton} type='button' href="https://github.com/diegofrr">
                     <FiArrowRight size={20} color='#FFF' />
-                    <span>Começar</span>
+                    <span>Get Started</span>
                 </a>
             </div>
         </header>

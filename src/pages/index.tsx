@@ -28,7 +28,7 @@ export default function Home({ content } : ContentProps) {
   return (
     <>
       <Head>
-        <title>Página inicial</title>
+        <title>Home</title>
       </Head>
       <main className={styles.container}>
         <div className={styles.containerHeader}>
@@ -39,13 +39,13 @@ export default function Home({ content } : ContentProps) {
             </span>
 
             <a href={content.linkAction}>
-              <button>Começar agora!</button>
+              <button>Get Started!</button>
             </a>
 
           </section>
           <img
             src="/images/banner-conteudos.png"
-            alt="Banner página Conteúdos" />
+            alt="Lorem ipsum" />
         </div>
 
         <hr className={styles.divisor} />
@@ -64,7 +64,7 @@ export default function Home({ content } : ContentProps) {
         <hr className={styles.divisor} />
 
         <div className={styles.sectionContent}>
-          <img src={content.webBanner} alt="Desenvolvimento de aplicações" />
+          <img src={content.webBanner} alt="Lorem ipsum" />
           <section>
             <h2>{content.webTitle}</h2>
             <span>
@@ -74,16 +74,13 @@ export default function Home({ content } : ContentProps) {
         </div>
 
         <div className={styles.nextLevelContent}>
-          <Image quality={2} src={techsImage} alt="Tecnologias" />
-
           <h2>
-            Mais de <span className={styles.alunos}>15 mil alunos</span> já levaram sua carreira
-            para o próximo nível.
+          Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs
           </h2>
-          <span>E você, vai perder a chance de evoluir de uma vez por todas?</span>
+          <span>Until recently, the prevailing view assumed lorem ipsum was born as a nonsense text.</span>
 
           <a href={content.linkAction}>
-            <button>Começar agora!</button>
+            <button>Lorem Ipsum!</button>
           </a>
 
         </div>

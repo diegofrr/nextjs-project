@@ -1,0 +1,24 @@
+.scrollToTopButton {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    transition: all .3s ease;
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 100px;
+    display: grid;
+    place-items: center;
+    box-shadow: 0 0 15px -2px #000;
+    background-color: transparent;
+    border: 2px solid white;
+
+    svg {
+        margin-top: 5px;
+        color: #fff;
+        transition: all .3s ease;
+    }
+
+    &:hover {
+        opacity: .6;
+    }
+}

@@ -1,0 +1,71 @@
+{
+  "id": "6328d4a7-b451-4563-b8f0-bb16671b66d3",
+  "uid": "commodi-quis-dolore",
+  "type": "home",
+  "data": {
+    "title": [
+      {
+        "type": "heading1",
+        "text": "Disintermediate impactful models",
+        "spans": []
+      }
+    ],
+    "subtitle": [
+      {
+        "type": "paragraph",
+        "text": "Non duis eu quis sit velit ullamco et ea.",
+        "spans": []
+      }
+    ],
+    "linkAction": {
+      "link_type": "Web",
+      "url": "https://prismic.io"
+    },
+    "mobile": [
+      {
+        "type": "heading2",
+        "text": "Empower bleeding-edge e-business",
+        "spans": []
+      }
+    ],
+    "mobileContent": [
+      {
+        "type": "paragraph",
+        "text": "Nulla ad adipisicing do mollit cupidatat veniam labore aute adipisicing ad. Pariatur minim ut ea nostrud eiusmod aliqua ut eu culpa culpa ut consectetur.",
+        "spans": []
+      }
+    ],
+    "mobileBanner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?w=900&h=500&fit=crop"
+    },
+    "titleWeb": [
+      {
+        "type": "heading2",
+        "text": "Orchestrate strategic e-tailers",
+        "spans": []
+      }
+    ],
+    "webContent": [
+      {
+        "type": "paragraph",
+        "text": "Dolor laboris do esse aute ad cillum minim reprehenderit Lorem. Id pariatur Lorem irure pariatur commodo aute amet et. Ad laboris voluptate labore eu aute irure quis.",
+        "spans": []
+      }
+    ],
+    "webBanner": {
+      "dimensions": {
+        "width": 900,
+        "height": 500
+      },
+      "alt": "Placeholder image",
+      "copyright": null,
+      "url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?w=900&h=500&fit=crop"
+    }
+  }
+}

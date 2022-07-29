@@ -1,0 +1,56 @@
+.container {
+    display: block;
+}
+
+.containerHeader {
+    min-height: calc(100vh - 5rem);
+    margin: 0 auto;
+    width: calc(100% - 40px);
+    max-width: 1120px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    img {
+        width: 50%;
+        max-width: 400px;
+
+        @media (max-width: 600px) {
+            display: none;
+        }
+    }
+}
+
+.ctaText {
+    max-width: 600px;
+
+    h1 {
+        font-size: 3rem;
+        font-weight: 900;
+        margin: 1rem 0;
+        color: #FFF;
+    }
+
+    p {
+        font-size: 1rem;
+        line-height: 2rem;
+        white-space: pre-wrap;
+        color: #999;
+    }
+
+    a svg {
+        margin-top: 15px;
+        color: #FFF;
+        transition: all .3s ease;
+        
+        &:hover {
+            color: var(--yellow-500);
+        }
+    }
+
+    svg {
+        cursor: pointer;
+        margin-right: 10px;
+    }
+}
